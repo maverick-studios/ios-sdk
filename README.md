@@ -1,1 +1,3 @@
-# ios-sdk
+# SuperAppsSDK
+
+A description of this package.
