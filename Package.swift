@@ -19,7 +19,7 @@ let package = Package(
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
-		.binaryTarget(name: "SuperApps", url: "https://github.com/maverick-studios/ios-sdk/releases/download/0.1.0/SuperApps.xcframework.zip", checksum: "533fcd205b0320a72883dae4aa287d5c21cfc82680ce8cba1923820b899b6f77"),
+		.binaryTarget(name: "SuperApps", url: "https://github.com/maverick-studios/ios-sdk/releases/download/0.1.1/SuperApps.xcframework.zip", checksum: "533fcd205b0320a72883dae4aa287d5c21cfc82680ce8cba1923820b899b6f77"),
 //		.binaryTarget(name: "SuperAppsSDK", path: "SuperApps.xcframework"),
         .testTarget(
             name: "SuperAppsTests",
